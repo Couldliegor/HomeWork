@@ -81,6 +81,14 @@ public class Main {
     }
     public static void task9(){
        //exercise 9
-
+        System.out.println("\n");
+        int salaryInBank = 29000;
+        int percents = 0;
+        for (int i = 1; i < 13; i++) {
+            percents = salaryInBank / 100;
+            System.out.println("Month " + i + " value is " + salaryInBank + " rubles");
+            salaryInBank = salaryInBank + 29000 + percents;
+        }
     }
+    //done
 }
