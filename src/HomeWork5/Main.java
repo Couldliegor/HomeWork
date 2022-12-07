@@ -7,6 +7,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
     public static void task1(){
         //exercise 1
@@ -49,4 +50,11 @@ public class Main {
         }
     }
     //done
+    public static void task6(){
+     //exercise 6
+     System.out.println("\n");
+     for(int i = 7; i < 99; i = i + 7){
+         System.out.println(i);
+     }
+    }
 }
