@@ -5,6 +5,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
     public static void task1(){
         //exercise 1
@@ -28,6 +29,14 @@ public class Main {
             if(i % 2 == 0) {
                 System.out.println(i);
             }
+        }
+    }
+    //done
+    public static void task4(){
+        //exercise 4
+        System.out.println("\n");
+        for(int i = 10; i > -11; i--){
+            System.out.println(i);
         }
     }
     //done
