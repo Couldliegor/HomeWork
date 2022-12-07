@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
     public static void task1(){
         //exercise 1
@@ -20,4 +21,14 @@ public class Main {
         }
         //done
     }
+    public  static  void task3(){
+        //exercise 3
+        System.out.println("\n");
+        for(int i = 0; i < 18; i++){
+            if(i % 2 == 0) {
+                System.out.println(i);
+            }
+        }
+    }
+    //done
 }
