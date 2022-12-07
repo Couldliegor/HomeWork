@@ -11,6 +11,7 @@ public class Main {
         task7();
         task8();
         task9();
+        task10();
     }
     public static void task1(){
         //exercise 1
@@ -83,11 +84,22 @@ public class Main {
        //exercise 9
         System.out.println("\n");
         int salaryInBank = 29000;
-        int percents = 0;
+        int percents;
         for (int i = 1; i < 13; i++) {
             percents = salaryInBank / 100;
             System.out.println("Month " + i + " value is " + salaryInBank + " rubles");
             salaryInBank = salaryInBank + 29000 + percents;
+        }
+    }
+    //done
+    public static void task10() {
+        //exercise 10
+        System.out.println("\n");
+        int result;
+        int two = 2;
+        for(int i = 1; i < 12; i++){
+            result = two * i;
+            System.out.println("2 * " + i + " = " + result);
         }
     }
     //done
