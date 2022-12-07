@@ -9,6 +9,8 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
+        task9();
     }
     public static void task1(){
         //exercise 1
@@ -67,4 +69,18 @@ public class Main {
         }
     }
     //done
+    public static void task8(){
+        //exercise 8
+        System.out.println("\n");
+        int salaryInBank = 29000;
+        for (int i = 1; i < 13; i++) {
+            System.out.println("Month " + i + " value is " + salaryInBank + " rubles");
+            salaryInBank = salaryInBank + 29000;
+        }
+        //done
+    }
+    public static void task9(){
+       //exercise 9
+
+    }
 }
