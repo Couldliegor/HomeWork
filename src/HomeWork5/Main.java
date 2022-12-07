@@ -8,6 +8,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
     public static void task1(){
         //exercise 1
@@ -57,4 +58,13 @@ public class Main {
          System.out.println(i);
      }
     }
+    //done
+    public static void task7(){
+        //exercise 7
+        System.out.println("n");
+        for ( int i = 1; i < 513; i = i * 2){
+            System.out.println(i);
+        }
+    }
+    //done
 }
